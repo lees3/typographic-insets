@@ -92,21 +92,43 @@ figure {
   width: 300px;
   float: right;
   padding-left: 6px;
+  padding-top: .4em;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #333;
+  border-bottom-color: #333;
+  border-width: 3px;
 }
 
 figcaption {
   float: right;
+  font-style: italic;
+  font-size: .875rem;
 }
 
-blockquote {
-  float: left;
-}
-
-p:first-child ::first-letter {
+p:first-child::first-letter {
   font-size: 5rem;
   font-style: normal;
   background-color: #666;
   color: #f2f2f2;
   float: left;
-  padding: 6px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #333;
+  border-bottom-color: #333;
+  margin-right: 5px;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .125em;
+  padding-right: .125em;
+  border-width: 3px;
+}
+
+blockquote {
+  float: left;
+  font-size: 1.5rem;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  color: #666;
+  border-color: #333;
 }
