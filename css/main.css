@@ -87,3 +87,26 @@ footer {
 */
 
 /* Write your CSS here */
+h1 {
+  font-size: 1.5rem;
+}
+
+.chapter-num {
+font-size: .875rem;
+}
+
+p {
+  text-align: center;
+  margin-top: 0;
+
+}
+
+p:nth-of-type(5) {
+  float: left;
+}
+
+img {
+  width: 300px;
+  float: right;
+  padding-left: 6px;
+}
