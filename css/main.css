@@ -91,6 +91,7 @@ footer {
 figure {
   width: 300px;
   float: right;
+  clear: left;
   padding-left: 6px;
   padding-top: .4em;
   border-top-style: solid;
@@ -98,6 +99,8 @@ figure {
   border-top-color: #333;
   border-bottom-color: #333;
   border-width: 3px;
+  margin: 0;
+  margin-right: -300px;
 }
 
 figcaption {
@@ -112,6 +115,7 @@ p:first-child::first-letter {
   background-color: #666;
   color: #f2f2f2;
   float: left;
+  clear: both;
   border-top-style: solid;
   border-bottom-style: solid;
   border-top-color: #333;
@@ -119,9 +123,12 @@ p:first-child::first-letter {
   margin-right: 5px;
   padding-top: .2em;
   padding-bottom: .2em;
-  padding-left: .125em;
-  padding-right: .125em;
+  padding-left: .2em;
+  padding-right: .2em;
   border-width: 3px;
+  width: auto;
+  position: relative;
+  margin-left: -42px;
 }
 
 blockquote {
@@ -131,4 +138,16 @@ blockquote {
   border-bottom-style: solid;
   color: #666;
   border-color: #333;
+  width: 300px;
+}
+
+blockquote p:first-child::first-letter {
+  font-size: 1.5rem;
+  background-color: #fff;
+  color: #666;
+  border-style: none;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
